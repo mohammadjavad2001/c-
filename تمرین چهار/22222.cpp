@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+
+long fact(double x)
+{
+	if(x==1)
+	return 1;
+	else
+	return(x*fact(x-1));
+	
+
+	}
+
+int permutation(double n , double k){
+	int s=1;
+	if(n==0)
+	return 1;
+	else
+	for(int i=1;i<=n;i++){
+		s*=k;
+		k--;
+	}
+	return s/fact(n);
+
+}
+
+
+
+		
+int main()
+   {
+	int y;
+	cin>>y;
+		for(int t=0;t<y;t++){
+			
+		        for(int d=0;d<=t;d++){
+			          cout<<permutation(d , t)<<" ";
+		         }
+		                      cout<<endl;
+		}
+          }		
+
