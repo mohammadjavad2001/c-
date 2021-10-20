@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	
+cout<<"sdsada";	
 	int n;
 	int a=0;
 	int k;

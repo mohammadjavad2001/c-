@@ -23,7 +23,7 @@ using namespace std;
           long result=0;
 
  
-
+			cout<<"WWD";
        for(int i=0; number!=0;i++){
        	r = number%z;
        	result+=r*(pow(10,i));
