@@ -3,7 +3,9 @@
 #include<iostream>
 using namespace std;
 int main(){
+<<<<<<< HEAD
 cout<<"sdsada";	
+
 	int n;
 	int a=0;
 	int k;
