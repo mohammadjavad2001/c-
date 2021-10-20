@@ -4,6 +4,10 @@
 using namespace std;
 int main(){
 	
+	
+	
+	
+	cout<<"ADDADA";
 	int n;
 	int a=0;
 	int k;
